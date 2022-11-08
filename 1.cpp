@@ -4,6 +4,7 @@
 using namespace std;
 
 
+
 int main()
 {
 	stack<int> s1,s2;
@@ -38,6 +39,7 @@ int main()
 		s1.push(s2.top());
 		s2.pop();
 	}
+
 	cout << endl << endl;
 
 	cout << "Show stack element (print last in to first in):" << endl;

@@ -27,7 +27,6 @@ int main()
 		s1.pop();
 	}
 	cout << endl << endl;
-	printer(s1);
 
 	while (!s3.empty())
 	{
@@ -54,12 +53,7 @@ int main()
 		cout << s2.top() << " ";
 		s2.pop();
 	}
+
+	cout << endl << endl;
 }
-void printer(stack<int> t)
-{
-	while (!t.empty())
-	{
-		cout << t.top() << " ";
-		t.pop();
-	}
-}
+
